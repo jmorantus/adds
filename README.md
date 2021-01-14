@@ -17,6 +17,6 @@ In this repo, you'll learn how:
 [Azure Cloud Shell Quickstart](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart-powershell)
 
 3. Git clone this repo\
-git clone https://github.com/jmorantus/adds.git  
+```powershell git clone https://github.com/jmorantus/adds.git```
 
 4. 
