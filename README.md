@@ -34,6 +34,6 @@ In this repo, you'll learn how:
 ```cd adds``` \
 ```.\Create-ADDS-Service.ps1```
 
-6. After a successful deployment. Configure the ADDS Service from the Azure Portal UI
+6. After a successful deployment. Navigate to the Resource Group from the Azure Portal UI, select the newly created service and follow instructions to Update DNS records for the Service
 
 
