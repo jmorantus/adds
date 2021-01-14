@@ -2,7 +2,7 @@
 #
 # Configure Variables to create the ADDS Service
 
-$AdminPrincipal = "jmorantus@morantusjavagmail.onmicrosoft.com"
+$AdminPrincipal = "<REPLACE-WITH-AZURE-AD-USER>"
 $ADRG = "ADDomainRG"
 $Region = "eastus"
 $DeploymentName = "ADDSDeployment"
