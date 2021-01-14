@@ -9,11 +9,7 @@ $DeploymentName = "ADDSDeployment"
 
 
 #---------------------------------------------------------------
-
-# Connects with an authenticated account to use Active Directory cmdlet requests.
-
-Connect-AzureAD
-
+#
 # Register the Azure AD Domain Services resource provider 
 
 Register-AzResourceProvider -ProviderNamespace Microsoft.AAD
@@ -58,5 +54,5 @@ New-AzResourceGroup -Name "$ADRG" -Location "$Region"
 
 # Create the ADDS Service 
 
-#New-AzureRmResourceGroupDeployment -Name $$DeploymentName -ResourceGroupName $ADRG -TemplateFile addstemplate.json -TemplateParameterFile addsparameters.json
+New-AzureRmResourceGroupDeployment -Name $$DeploymentName -ResourceGroupName $ADRG -TemplateFile addstemplate.json -TemplateParameterFile addsparameters.json
 
