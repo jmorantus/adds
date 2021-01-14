@@ -5,7 +5,15 @@ In this repo, you'll learn how:
 * Launch an Azure Powershell Cloud Shell window
 * Git clone this repo
 * Connect your session to AzureAD
-* Change directory to the repo and execute the Powershell Script
+* Change directory to the repo and execute the Powershell Script \
+  The following resources are created in this script
+  - Register the Azure ADDS resource provider
+  - Creates a Service Principal for ADDS
+  - Create an Admin Group for ADDS
+  - Assign a user to the Admin Group
+  - Create a Resource Group for the ADDS Resources
+  - Create the ADDS Service 
+
 * After a successful deployment. Configure the ADDS Service 
 
 ---
@@ -23,9 +31,9 @@ In this repo, you'll learn how:
 ```Connect-AzureAD```
 
 5. Change directory to the repo and execute the Powershell Script. Leave the session open until completed\
-```cd adds```
+```cd adds``` \
 ```.\Create-ADDS-Service.ps1```
 
-6. After a successful deployment. Configure the ADDS Service from the Azure Portal UI\
+6. After a successful deployment. Configure the ADDS Service from the Azure Portal UI
 
 
