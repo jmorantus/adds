@@ -5,18 +5,27 @@ In this repo, you'll learn how:
 * Launch an Azure Powershell Cloud Shell window
 * Git clone this repo
 * Connect your session to AzureAD
-* Change dir and execute the Powershell Script
-* After a successful deployment. Configure the ADDS Service
+* Change directory to the repo and execute the Powershell Script
+* After a successful deployment. Configure the ADDS Service 
 
 ---
-1. Login to the Azure portal using this link:
+1. Login to the Azure portal using this link:\
 [Azure Portal](https://portal.azure.com/)
 
 
-2. Launch an Azure Powershell Cloud Shell window using this link:
+2. Launch an Azure Powershell Cloud Shell window using this link:\
 [Azure Cloud Shell Quickstart](https://docs.microsoft.com/en-us/azure/cloud-shell/quickstart-powershell)
 
 3. Git clone this repo\
-```powershell git clone https://github.com/jmorantus/adds.git```
+```git clone https://github.com/jmorantus/adds.git```
 
-4. 
+4. Connect your session to AzureAD\
+```Connect-AzureAD```
+
+5. Change directory to the repo and execute the Powershell Script. Leave the session open until completed\
+```cd adds```
+```.\Create-ADDS-Service.ps1```
+
+6. After a successful deployment. Configure the ADDS Service from the Azure Portal UI\
+
+
